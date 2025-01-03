@@ -6,7 +6,7 @@ from machine import Pin
 
 led = Pin(2, Pin.OUT)
 
-for _ in range(5):
+for _ in range(10):
     led.on()
     sleep(0.2)
     led.off()
